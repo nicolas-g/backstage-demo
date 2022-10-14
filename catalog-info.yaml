@@ -6,9 +6,9 @@ metadata:
   tags:
     - go
     - website
-  Example for optional annotations
   annotations:
     github.com/project-slug: hux/to
+    # path, relative to the location of the catalog-info.yaml itself, where the associated mkdocs.yml file can be found
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
